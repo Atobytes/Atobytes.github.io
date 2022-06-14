@@ -33,9 +33,9 @@
        <input type="submit" value="Обо мне">
        <input type="submit" value="Мои работы">
        
-   </div class="Line"></div class="title__container">
+   </div></div>
    
-     <h1>Обо мне</h1>
+     <h2>Обо мне</h2>
       <img src="img/Photo.png"  alt="">
        
    
@@ -46,7 +46,7 @@
    
    <p></p><input type="submit" value="Скачать Резюме">
    
-   <h1>Что я умею</h1>
+   <h2>Что я умею</h2>
    
    <ul>
        <li>Веб Дизайн</li>
@@ -60,7 +60,7 @@
        
    </ul>
    
-   <h1>Кейсы</h1>
+   <h2>Кейсы</h2>
    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, labore aperiam sit dolorem quo eligendi odio a aut pariatur at consectetur voluptate deserunt minima ab cupiditate, facere similique voluptates repellat?20</span>
    <img src="img/SitePreview.png" alt="">
    
@@ -69,34 +69,34 @@
    <h3>Website:</h3>
    <p>http://www.somedomain.com</p>
    
-   <h1>Расчет стоимости</h1>
-   <h2>Тип сайта</h2>
-   <table border="1" width=70%>
-       <tr>
-           <th><placeholder><em>Выберите пункт</em></placeholder></th>
-        
-
-       </tr>
-       
-   </table>
+   <h2>Расчет стоимости</h2>
+   <h3>Тип сайта</h3>
+   <select name="type" id="typeSite">
+      <option value="1">Выберите пункт</option>
+      <option value="2">1</option>
+      <option value="3">2</option>
+      <option value="4">3</option>
+   </select>
    
-   <h2>Дизайн</h2>
-   <table border="1" width=70%>
-      <tr>
-          <th><placeholder><em>Выберите пункт</em></placeholder></th>
-      </tr>
+   <h3>Дизайн</h3>
+   <select name="type" id="typeSite">
+      <option value="1">Выберите пункт</option>
+      <option value="2">1</option>
+      <option value="3">2</option>
+      <option value="4">3</option>
+   </select>
        
-   </table>
    
-   <h2>Адаптивность</h2>
-   <table border="1" width=70%>
-      <tr>
-          <th><placeholder><em>Выберите пункт</em></placeholder></th>
-      </tr>
-       
-   </table>
    
-   <h1>Немного статистики</h1>
+   <h3>Адаптивность</h3>
+   <select name="type" id="typeSite">
+      <option value="1">Выберите пункт</option>
+      <option value="2">1</option>
+      <option value="3">2</option>
+      <option value="4">3</option>
+   </select>
+   
+   <h2>Немного статистики</h2>
    
    <ul>
        <li><b>120</b> счастливых клиентов</li>
@@ -105,11 +105,11 @@
        <li><b>23</b> наград получено</li>
    </ul>
    
-   <h1>Отзывы</h1>
+   <h2>Отзывы</h2>
    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit recusandae atque sapiente quae sint consequatur aliquam unde numquam, quidem libero.</span>
    <p><b>Михаил</b>, Ген директор ПАО''Газпром''</p>
    
-   <h1>Мои контакты</h1>
+   <h2>Мои контакты</h2>
    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, temporibus!</span>
    <ul>
        <li>Санкт-Петербург Невский Проспект 11</li>
@@ -120,10 +120,11 @@
    <form action="#">
        <input type="text" name="text_input" value="" placeholder="Имя">
        <input type="text" name="text_input" value="" placeholder="Email">
-       <input type="text" name="text_input" value="" placeholder="Сообщение">
-       <input type="submit" value="Отправить">
+       
        
    </form>
+   <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+   <input type="submit">
    
 
 
